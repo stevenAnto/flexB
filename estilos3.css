@@ -1,0 +1,43 @@
+div {
+  border:ridge;
+}
+.containerGeneral{
+  display:flex;
+  flex-direction:column;
+}
+
+.header{
+  display:flex;
+  justify-content:space-around;
+}
+.cuerpo{
+  display:flex;
+  justify-content:space-between;
+}
+.leftcolum{
+  display:flex;
+  flex-direction:column;
+  flex-grow:1;
+}
+.midcolum{
+  display:flex;
+  flex-direction:column;
+  flex-grow:2;
+}
+.rightcolum{
+  display:flex;
+  flex-direction:column;
+  flex-grow:1;
+}
+.topMedio{
+  display:flex;
+  justify-content:space-around;
+}
+.subTopMedio{
+  display:flex;
+  justify-content:space-around;
+}
+.botMedio{
+  display:flex;
+  flex-direction:column;
+}
