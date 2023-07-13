@@ -1,6 +1,8 @@
 /*el documento ocupara toda la pagina*/
 html, body{
   height:100%;
+  margin:0;
+  padding::0;
 }
 div {
   border:ridge;
@@ -8,7 +10,7 @@ div {
 .containerGeneral{
   display:flex;
   flex-direction:column;
-  height:100%;
+  height:90%;
 }
 
 .header{
@@ -17,24 +19,27 @@ div {
 }
 .cuerpo{
   display:flex;
-  justify-content:space-between;
+  justify-content:space-evenly;
   height:100%;
 }
 .leftcolum{
   display:flex;
   flex-direction:column;
-  flex-grow:0.5;
+  flex-grow:1;
+  max-width:25%;
 }
 .midcolum{
   display:flex;
   flex-direction:column;
+  overflow:scroll;
   flex-grow:1;
+  max-width:45%;
 }
 .rightcolum{
   display:flex;
   flex-direction:column;
-  flex-grow:0.1;
-  max-width:300px;
+  max-width:30%;
+  flex-grow:1;
 }
 .topMedio{
   display:flex;
@@ -76,6 +81,7 @@ div {
 .busquedaBarra{
   display:flex;
   align-items:center;
+  width:100%;
 }
 .iconos{
   display:flex;
@@ -92,4 +98,5 @@ div {
   align-self:center;
 }
 .busquedaTop{
+  width:85%;
 }

@@ -1,0 +1,58 @@
+.postContainer{
+  display:flex;
+  flex-direction:column;
+}
+.postContainerf1{
+  display:flex;
+  justify-content:space-around;
+}
+.fotoPerfil{
+  display:flex;
+  flex-grow:1;
+}
+.derechaFoto{
+  display:flex;
+  flex-direction:column;
+  flex-grow:1;
+}
+.topicosContainer{
+  display:flex;
+  justify-content:space-between;
+}
+.NombreFecha{
+  display:flex;
+  justify-content:space-between;
+}
+
+
+
+.postContainerf3{
+  display:flex;
+
+}
+.postContainerf4{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.postContainerf5{
+  display:flex;
+  justify-content:space-between;
+}
+.likes{
+  display:flex;
+  flex-grow:1;
+}
+.derechaLike{
+  display:flex;
+  flex-grow:1;
+}
+.likes{
+  display:flex;
+  justify-content:space-around;
+}
+.derechaLike{
+  display:flex;
+  justify-content:space-around;
+}
