@@ -53,15 +53,29 @@ div {
   flex-wrap:wrap;
 }
 .logo{
+  display:flex;
   flex-grow:1;
+  justify-content:center;
 
 }
 .interirLog{
   display:flex;
+  justify-content:center;
+  height:100%;
+}
+.LogoForUnsa{
+  display:flex;
+  align-items:center;
 }
 .busqueda{
+  display:flex;
   flex-grow:1;
+  justify-content:center;
 
+}
+.busquedaBarra{
+  display:flex;
+  align-items:center;
 }
 .iconos{
   display:flex;
@@ -73,10 +87,9 @@ div {
 
 }
 /*Tambien podriamos usar align-self:center*/
-i{
-  text-align:center;
-  position:relative;
-  top:25%;
+.i{
+  display:flex;
+  align-self:center;
 }
 .busquedaTop{
 }
