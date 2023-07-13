@@ -4,15 +4,44 @@
     <meta charset="utf-8">
     <title>HTML</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/554cbec351.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="estilos3.css">
   </head>
 
   <body>
     <div class="containerGeneral">
       <div class="header">
-        <div class="logo">logo</div>
-        <div class="busqueda">busqueda</div>
-        <div class="iconos">iconos</div>
+        <div class="logo">
+          <div>
+          <img src="logoTareas.png" width="50px" alt="">
+          </div>
+        </div>
+        <div class="busqueda">
+          <input class="busquedaTop" type="text" placeholder="Search..." name="search">
+          <button type="submit">
+            <i class="fa fa-search"></i>
+          </button>
+
+        </div>
+        <div class="iconos">
+          <div class="interiorIcones">
+          <div>
+            <i class="fa-solid fa-house hover-effect d-none d-md-inline"></i>
+          </div>
+          <div>
+            <i class="fa-regular fa-circle-question"></i>
+          </div>
+          <div>
+            <i class="fa-solid fa-user-group hover-effect  d-none d-md-inline"></i>
+          </div>
+          <div>
+            <i class="fa-solid fa-message hover-effect  d-none d-md-inline"></i>
+          </div>
+          <div>
+            <i class="fa-solid fa-circle-user hover-effect d-none d-md-inline fa-2x" id="login"></i>
+          </div>
+        </div>
+        </div>
       </div>
       <div class="cuerpo">
         <div class="leftcolum">
@@ -48,10 +77,12 @@
                   <i class="fa fa-search"></i>
                 </button>
               </div>
-              <div>
+              <div class="tags">
                 <a href="">Calculo</a>
                 <a href="">Topicos</a>
                 <a href="">Mitac</a>
+                <a href="">Ing. de Sistemas</a>
+                <a href="">Otros</a>
                 <a href="">Ing. de Sistemas</a>
 
               </div>
