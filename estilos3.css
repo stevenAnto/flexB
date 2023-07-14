@@ -41,6 +41,10 @@ div {
   max-width:30%;
   flex-grow:1;
 }
+.midcolumHeader{
+  position:sticky;
+  top:0;
+}
 .topMedio{
   display:flex;
   justify-content:space-around;
@@ -99,4 +103,16 @@ div {
 }
 .busquedaTop{
   width:85%;
+}
+.columnside{
+  display:flex;
+  flex-direction:column;
+  height:100%;
+}
+.containerPreguntas{
+  overflow:scroll;
+}
+.preguntasFrecuentas{
+  position:sticky;
+  top:0;
 }
