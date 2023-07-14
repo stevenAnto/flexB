@@ -1,8 +1,7 @@
 /*el documento ocupara toda la pagina*/
 html, body{
   height:100%;
-  margin:0;
-  padding::0;
+  overflow-y:hidden;
 }
 div {
   border:ridge;
@@ -10,7 +9,10 @@ div {
 .containerGeneral{
   display:flex;
   flex-direction:column;
-  height:90%;
+  height:95%;
+  margin:0;
+  padding:0;
+  overflow-y:hidden;
 }
 
 .header{
@@ -94,6 +96,8 @@ div {
 }
 .interiorIcones{
   display:flex;
+  width:65%;
+  justify-content:space-around;
 
 }
 /*Tambien podriamos usar align-self:center*/
@@ -115,4 +119,16 @@ div {
 .preguntasFrecuentas{
   position:sticky;
   top:0;
+}
+.tree{
+  list-style:None;
+}
+.listadoPost{
+  height:50%;
+}
+.listadoPostDetalle{
+  height:100%;
+}
+.comunicados{
+  height:50%;
 }
